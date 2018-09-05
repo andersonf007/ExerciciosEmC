@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<locale.h>
+
+main(){
+    
+    char c;
+     setlocale(LC_ALL,"");
+        
+    printf("digite um caracter: ");
+    scanf("%c", &c);
+    
+    printf("O caracter digitado foi \% %c \%",34,c,34 );
+}
+        
