@@ -7,15 +7,15 @@
 # Macros
 TOP=`pwd`
 CND_PLATFORM=Cygwin-Windows
-CND_CONF=Debug
+CND_CONF=Release
 CND_DISTDIR=dist
 CND_BUILDDIR=build
 CND_DLIB_EXT=dll
 NBTMPDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}/tmp-packaging
 TMPDIRNAME=tmp-packaging
-OUTPUT_PATH=${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/questo8-receberinteiroeimprimiroctalehexadecimal
-OUTPUT_BASENAME=questo8-receberinteiroeimprimiroctalehexadecimal
-PACKAGE_TOP_DIR=questo8-receberinteiroeimprimiroctalehexadecimal/
+OUTPUT_PATH=${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/questao8-receberinteiroeimprimiroctalehexadecimal
+OUTPUT_BASENAME=questao8-receberinteiroeimprimiroctalehexadecimal
+PACKAGE_TOP_DIR=questao8-receberinteiroeimprimiroctalehexadecimal/
 
 # Functions
 function checkReturnCode
@@ -60,15 +60,15 @@ mkdir -p ${NBTMPDIR}
 
 # Copy files and create directories and links
 cd "${TOP}"
-makeDirectory "${NBTMPDIR}/questo8-receberinteiroeimprimiroctalehexadecimal/bin"
+makeDirectory "${NBTMPDIR}/questao8-receberinteiroeimprimiroctalehexadecimal/bin"
 copyFileToTmpDir "${OUTPUT_PATH}.exe" "${NBTMPDIR}/${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}.exe" 0755
 
 
 # Generate tar file
 cd "${TOP}"
-rm -f ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/questo8-receberinteiroeimprimiroctalehexadecimal.tar
+rm -f ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/questao8-receberinteiroeimprimiroctalehexadecimal.tar
 cd ${NBTMPDIR}
-tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/questo8-receberinteiroeimprimiroctalehexadecimal.tar *
+tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/questao8-receberinteiroeimprimiroctalehexadecimal.tar *
 checkReturnCode
 
 # Cleanup

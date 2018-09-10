@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Questo8-ReceberInteiroEimprimirOctalEHexadecimal
+PROJECTNAME=Questao10-MostrarMaiorNumero
 
 # Active Configuration
 DEFAULTCONF=Debug

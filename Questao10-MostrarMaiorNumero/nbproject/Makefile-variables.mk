@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=Cygwin-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin-Windows
-CND_ARTIFACT_NAME_Debug=questo8-receberinteiroeimprimiroctalehexadecimal
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/questo8-receberinteiroeimprimiroctalehexadecimal
+CND_ARTIFACT_NAME_Debug=questao10-mostrarmaiornumero
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/questao10-mostrarmaiornumero
 CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin-Windows/package
-CND_PACKAGE_NAME_Debug=questo8-receberinteiroeimprimiroctalehexadecimal.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/questo8-receberinteiroeimprimiroctalehexadecimal.tar
+CND_PACKAGE_NAME_Debug=questao10-mostrarmaiornumero.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/questao10-mostrarmaiornumero.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin-Windows
-CND_ARTIFACT_NAME_Release=questo8-receberinteiroeimprimiroctalehexadecimal
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/questo8-receberinteiroeimprimiroctalehexadecimal
+CND_ARTIFACT_NAME_Release=questao10-mostrarmaiornumero
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/questao10-mostrarmaiornumero
 CND_PACKAGE_DIR_Release=dist/Release/Cygwin-Windows/package
-CND_PACKAGE_NAME_Release=questo8-receberinteiroeimprimiroctalehexadecimal.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/questo8-receberinteiroeimprimiroctalehexadecimal.tar
+CND_PACKAGE_NAME_Release=questao10-mostrarmaiornumero.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/questao10-mostrarmaiornumero.tar
 #
 # include compiler specific variables
 #
