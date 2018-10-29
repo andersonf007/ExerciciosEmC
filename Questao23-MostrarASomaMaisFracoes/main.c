@@ -2,15 +2,17 @@
 
 int main(){
     
-    float h,n;
+    float h = 0;
+    int n = 0;
     
     
     printf("digite um numero : ");
-    scanf("%f",&n);
+    scanf("%d",&n);
     
-    for(int i = 0; i <= n;i++){
+    for(float i = 1; i <= n;i++){
         
         h = h+(1.0/i);
+
     }
    printf("o somatorio e : %f",h);
    
