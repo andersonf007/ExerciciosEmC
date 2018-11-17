@@ -5,14 +5,14 @@ main(){
     int numero[10];
     int j = 0;
     
-    for(int i = 2; i <= 20; i += 2){
-      0=2;1=4;2=6;3=8;4=10;5=12;6=14;7=16;8=18;9=20  
+    for(int i = 2; i <= 20; i ++){
+        if(i % 2 == 0){
         numero[j] = i;
         j++;
-        
+        }
     }
-    
-    for(j = 0; j < sizeof(numero); j++){
-        printf("[ %d } = %d \n", j,numero[j]);
+    printf("%d \n",sizeof(numero));
+    for(int k = 0;  k < 10 ; k++){
+        printf("[ %d ] = %d \n", k,numero[k]);
     }
 }
